@@ -1,4 +1,10 @@
-# DHCP Server 
+# DHCP Server
+
+La funcion del servidor DHCP es la asignación automática de:<br>
+* Direcciones IP
+* Subnet Mask
+* Default Gateway
+* Servidor DNS
 
 ## ISC DHCP server (Deprecated)
 
