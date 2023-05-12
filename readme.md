@@ -11,8 +11,7 @@ La funcion del servidor DHCP es la asignación automática de:<br>
 Comandos: <br>
     ``` sudo su - ```<br>
     ``` apt install curl apt-transport-https -y ```<br>
-    ``` curl -1sLf 'https://dl.cloudsmith.io/public/isc/kea-2-2/setup.deb.sh' | sudo -E bash
- ```<br>
+    ``` curl -1sLf 'https://dl.cloudsmith.io/public/isc/kea-2-2/setup.deb.sh' | sudo -E bash ```<br>
     ``` apt install isc-kea-dhcp4-server -y  ```<br>
    ``` mv kea-dhcp4.conf kea-dhcp4.conf.bak```<br>
     ``` nano kea-dhcp4.conf ```<br>
