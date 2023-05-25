@@ -1,0 +1,35 @@
+{
+"Dhcp4": {
+    "interfaces-config": {
+        "interfaces": ["ens160"]  //listening interfaces 
+    },
+
+    "lease-database": {
+        "type": "memfile",
+        "persist": true,
+        "name": "/var/lib/kea/kea-leases4.csv",
+        "lfc-interval": 3600
+    },
+
+    "renew-timer": 15840,
+    "rebind-timer": 27720,
+    "valid-lifetime": 31680,
+
+    "subnet4": [
+        {
+            "subnet": "172.16.0.0/20",
+            "pools": [ { "pool": "172.16.0.1 - 172.16.15.254" } ],
+            "option-data": [
+                {
+                    "name": "routers",
+                    "data": "172.16.0.1"
+                }
+            ]
+            
+            // Add reservations here
+        }
+        
+        // Add subnets here
+    ]
+}
+}

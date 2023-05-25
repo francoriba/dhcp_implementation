@@ -27,3 +27,6 @@ Comandos: <br>
     ``` apt install isc-kea-dhcp4-server -y  ```<br>
    ``` mv kea-dhcp4.conf kea-dhcp4.conf.bak```<br>
     ``` nano kea-dhcp4.conf ```<br>
+
+## Guia
+https://docs.google.com/document/d/1hX6RqFCvEcfaRv4e4CEMCW0OXvkRFRE9h39fzGZvpX8/edit?usp=sharing
