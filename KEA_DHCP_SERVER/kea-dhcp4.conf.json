@@ -1,7 +1,7 @@
 {
 "Dhcp4": {
     "interfaces-config": {
-        "interfaces": ["ens160"]  //listening interfaces 
+        "interfaces": ["enx7cc2c6338d1d"]  //interfaz del switch 2 del lab
     },
 
     "lease-database": {
